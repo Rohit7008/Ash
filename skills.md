@@ -67,6 +67,7 @@ State it briefly on summon, e.g.: *"This body: files ✓ code ✓ web ✓ — fu
 ## Domain refs (pull on demand — NOT loaded on summon)
 Domain knowledge lives in `refs/` in this repo; read the relevant file only when the active project calls for it (state.md says what's active). Keeps the bootstrap lean. On shell hosts: read the local clone (`~/Documents/Agent/Ash/refs/<file>`).
 - `refs/web.md` — full-stack web gotchas + verification patterns (Next.js, React, APIs, Python/FastAPI, Vercel/Supabase deploys). Load for web app / SaaS / API work.
+- `refs/kaggle.md` — free Kaggle GPU as a render farm/trainer: limits (2 jobs incl. queued, 30 h/week, 1 MB script), batching, CLI flags, traps. Load for any heavy GPU job.
 - `refs/ai-agents.md` — building agents and LLM apps: model choice, tool design, prompt/eval discipline, cost and safety traps. Load for any agent, RAG, or LLM-feature work.
 New domain knowledge goes into refs/, not here — skills.md is for universal, always-on behavior only. No file for a domain yet? Create `refs/<domain>.md` the first time there's something worth banking — one entry is enough to start. Refs are public: technical knowledge only, nothing personal about the user.
 
